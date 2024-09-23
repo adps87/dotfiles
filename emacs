@@ -33,6 +33,14 @@
 ;;;
 ;;;     The execution of M-x all-the-icons-install-fonts is necessary to install the fonts used
 ;;; by the package all-the-icons.
+;;;
+;;; To highlight the actual line:
+;;;	1) Download this file: https://www.emacswiki.org/emacs/download/highline.el;
+;;;	2) byte-compile-file it;
+;;;	3) Add to this .emacs: 
+;;;		(add-to-list 'load-path "~/.emacs.d/")
+;;;		(load "highline.el")
+;;;
 ;;; --------------------------------------------------------------------------------------
 ;;; 'byte-compile-file' this file
 ;;; --------------------------------------------------------------------------------------
